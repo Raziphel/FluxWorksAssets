@@ -4,7 +4,7 @@
   "title": "FluxWorks Assets",
   "author": "Raziphel, FluidNatalie",
   "factorio_version": "2.0",
-  "description": "The graphics for a massive Factorio overhaul mod!",
+  "description": "The graphics pack for a massive Factorio overhaul mod, including original work plus credited adapted assets; see FluxWorks/credits.md for source details.",
   "dependencies": [
     "base >= 2.0.0",
     "space-age >= 2.0.0"
