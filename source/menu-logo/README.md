@@ -1,0 +1,10 @@
+# FluxWorks menu wordmark
+
+The menu wordmark is rendered from **Full Automation Squared**, an independent
+Factorio-inspired display typeface by Landmine752. The font is distributed
+under the SIL Open Font License; see `OFL.txt`.
+
+Run `render.sh` from any directory to rebuild
+`graphics/menu-simulations/fw-logo.png`. The layered construction is kept
+deliberately restrained so FluxWorks reads as a secondary title beneath the
+physical Factorio logo rather than as a separate sign or interface panel.

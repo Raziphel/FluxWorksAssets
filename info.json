@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "title": "FluxWorks Assets",
   "author": "Raziphel, FluidNatalie, Tirisabella",
-  "factorio_version": "2.0",
-  "description": "The graphics pack for FluxWorks, containing only FluxWorks-shipped art plus credited adapted assets that are not already provided by required dependency mods; see FluxWorks/credits.md for source details.",
+  "factorio_version": "2.1",
+  "description": "Graphics required by FluxWorks.",
   "dependencies": [
-    "base >= 2.0.0",
-    "space-age >= 2.0.0"
+    "base >= 2.1.0",
+    "space-age >= 2.1.0"
   ]
 }
