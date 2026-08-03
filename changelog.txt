@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-08-03
+  Graphics:
+    - First public release of the FluxWorks companion graphics package.
+    - Added machine animations, item and fluid icons, technology artwork, terrain, resources, and
+      menu presentation assets required by FluxWorks 1.0.0.
