@@ -24,7 +24,8 @@ FluxWorks Assets is maintained by Raziphel, FluidNatalie, and Tirisabella.
   modified MIT-licensed graphics;
   Copyright (c) 2023 Kirazy.
 - Full Automation Squared — typeface by Landmine752, used under the SIL Open Font
-  License 1.1. The complete font license is in `source/menu-logo/OFL.txt`.
+  License 1.1. The complete font license is in
+  `licenses/OFL-Full-Automation-Squared.txt`.
 
 The MIT-licensed material above is provided under the following terms:
 
