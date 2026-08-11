@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2026-08-11
+  Graphics:
+    - Added dedicated Sand and Glass icons for FluxWorks' native material-processing chain.
+    - Added two alternate Sand inventory sprites for visual variety on belts and in containers.
+  Changes:
+    - Added the Krastorio 2 Assets attribution and LGPL-3.0 license covering the new material graphics.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-08-03
   Graphics:

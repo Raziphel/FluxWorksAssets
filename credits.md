@@ -23,6 +23,10 @@ FluxWorks Assets is maintained by Raziphel, FluidNatalie, and Tirisabella.
 - [Artisanal Reskins: Bob's Mods](https://mods.factorio.com/mod/reskins-bobs) —
   modified MIT-licensed graphics;
   Copyright (c) 2023 Kirazy.
+- [Krastorio 2 Assets](https://codeberg.org/raiguard/Krastorio2Assets) by
+  Linver, Krastor, and raiguard — Sand and Glass item graphics, used under the
+  GNU Lesser General Public License 3.0. The complete license is in
+  `licenses/LGPL-3.0-Krastorio2Assets.txt`.
 - Full Automation Squared — typeface by Landmine752, used under the SIL Open Font
   License 1.1. The complete font license is in
   `licenses/OFL-Full-Automation-Squared.txt`.
