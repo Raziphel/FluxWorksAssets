@@ -40,5 +40,32 @@
     "graphics/icons/items/crystallized-flux.png",
     "graphics/technology/native/fw-flux-extraction.png"
   ],
-  "notes": "Do not move or rename. Future new art additions require validated source prototype references; no binary sprite replacements are included in this blueprint commit."
+  "notes": "Four distinct actual PNG upgrade emblems are bundled, with editable SVG masters. Existing sprite paths remain untouched. Full machine sprite animations remain sourced from the existing graphics dependencies.",
+  "version": "1.1",
+  "project_badges": [
+    {
+      "machine": "fw-industrial-harvester",
+      "icon": "graphics/icons/upgrade-badges/fw-industrial-harvester.png",
+      "source": "art/source/fw-industrial-harvester.svg",
+      "icon_size": 128
+    },
+    {
+      "machine": "fw-precision-synthesis",
+      "icon": "graphics/icons/upgrade-badges/fw-precision-synthesis.png",
+      "source": "art/source/fw-precision-synthesis.svg",
+      "icon_size": 128
+    },
+    {
+      "machine": "fw-chromatic-foundry",
+      "icon": "graphics/icons/upgrade-badges/fw-chromatic-foundry.png",
+      "source": "art/source/fw-chromatic-foundry.svg",
+      "icon_size": 128
+    },
+    {
+      "machine": "fw-convergence",
+      "icon": "graphics/icons/upgrade-badges/fw-convergence.png",
+      "source": "art/source/fw-convergence.svg",
+      "icon_size": 128
+    }
+  ]
 }

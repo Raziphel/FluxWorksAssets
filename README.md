@@ -30,3 +30,7 @@ python3 scripts/validate_extension_assets.py
 This tool checks known extension icon paths and valid PNG dimensions without third-party dependencies. It does not replace in-game Factorio sprite/prototype loading, atlas packing, tint rendering, animations, collision footprints or a visual QA review. No automatic GitHub Action is enabled.
 
 **0.3 development:** The current branch preserves original binary assets while recording the direction and validating existing Flux overlays. A complete new sprite pack remains a separate art deliverable; no new binary artwork is claimed.
+
+## New Industrial Project emblems (1.0.5)
+
+Four new PNG icons are now bundled at `graphics/icons/upgrade-badges/`: a gold drilling head (Industrial Harvester), violet triangular reaction graph (Precision Synthesis), red crucible (Chromatic Foundry), and four-color central convergence (Convergence Plant). Editable SVG sources live in `art/source/`. These are real new inventory-icon assets, not full replacement sprite-sheet animations. The existing large machine renderings and tile footprints are preserved.
