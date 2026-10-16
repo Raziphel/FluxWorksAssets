@@ -25,3 +25,7 @@ The contract rejects five old standalone-only files that cannot be used by FluxW
 ## Spectrum manufacturing sprites in Assets 1.0.8
 
 This repository now contracts **23 known active PNG assets**, including five newly authored 128x128 item graphics for Reborn's chemistry, heat, phase, biology, and convergence outputs. The offline validator verifies their paths, PNG signature, dimensions, SVG design references, and five distinct identities. PNG signature and dimensions do **not** verify sprite atlas behavior; a real Factorio 2.1 load remains necessary.
+
+## Standalone research emblems (1.0.9)
+
+Four new independent research-program PNG files and editable SVG masters are required, even without Razi installed. The checker validates their distinct identities, dimensions, file existence and SVG masters. Razi-specific world emblems remain available for optional integrations but do not define the FluxWorks identity.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline PNG contract check for the Razi Protocol / FluxWorks extension.
+"""Offline PNG contract check for standalone FluxWorks art assets.
 
 No external Python packages or GitHub CI are required.
 """
@@ -82,6 +82,23 @@ def main() -> int:
         art = source.read_text(encoding="utf-8")
         if "<svg " not in art or "</svg>" not in art:
             raise ValueError(f"Malformed spectrum source SVG: {entry['source']}")
+    programs = manifest.get("independent_programs", [])
+    expected_programs = {"chemical", "thermal", "biological", "phase"}
+    assert len(programs) == 4, "Expected four independent program emblems"
+    assert {entry["id"] for entry in programs} == expected_programs
+    for entry in programs:
+        assert entry["icon"] in expected
+        assert entry["icon_size"] == 128
+        source_path = (ROOT / entry["source"]).resolve()
+        if not source_path.is_relative_to(ROOT) or not source_path.is_file():
+            raise FileNotFoundError(
+                f"Missing independent-program vector master: {entry['source']}"
+            )
+        svg = source_path.read_text(encoding="utf-8")
+        if "<svg " not in svg or "</svg>" not in svg:
+            raise ValueError(
+                f"Malformed independent-program vector master: {entry['source']}"
+            )
     for relpath in expected:
         path = (ROOT / relpath).resolve()
         if not path.is_relative_to(ROOT) or path.suffix.lower() != ".png":
