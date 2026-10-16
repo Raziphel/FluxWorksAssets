@@ -43,3 +43,6 @@ Added a separate 128px PNG (plus editable SVG master) for each of Calidus, Solar
 ## 1.0.7 lean graphics package
 
 Removed one obsolete FluxWorks custom-menu logo and four terrain textures used exclusively by its deleted landable Shattered Planet code. Razi owns planetary terrain and menu scenes. Other machine sprite atlases, used rocket recovery graphics, 18 contracted active icons, and legacy manufacturing textures remain until safe save-prototype migration is proven. The validator now rejects the five retired paths as well as verifying retained core assets.
+
+## New spectrum production art (1.0.8)
+Five new authored 128px industrial item icons and editable SVG design references: Yellow Separation Membrane, Red Thermal Core, Purple Phase Wafer, Green Living Fiber and four-spectrum Convergence Chassis. These are new manufactured items, not replacements of original machine animation sprite sheets.

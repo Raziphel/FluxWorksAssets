@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "FluxWorks Industrial Extension",
   "revision": "2026-10-16",
-  "requires": "FluxWorks 0.3.5",
+  "requires": "FluxWorks 0.4.0",
   "asset_mod_id": "FluxWorksAssets",
   "runtime_owned_by": "razi-protocol",
   "graphics_namespace": "__FluxWorksAssets__",
@@ -50,10 +50,15 @@
     "graphics/icons/system-badges/fw-vespera-industry.png",
     "graphics/icons/system-badges/fw-beetlejuice-industry.png",
     "graphics/icons/system-badges/fw-umbra-industry.png",
-    "graphics/icons/system-badges/fw-deep-space-industry.png"
+    "graphics/icons/system-badges/fw-deep-space-industry.png",
+    "graphics/icons/industrial/fw-chemical-membrane.png",
+    "graphics/icons/industrial/fw-thermal-core.png",
+    "graphics/icons/industrial/fw-phase-wafer.png",
+    "graphics/icons/industrial/fw-living-fiber.png",
+    "graphics/icons/industrial/fw-convergence-chassis.png"
   ],
   "notes": "Active machine and manufacturing icon paths preserved. Removed old standalone landable-Shattered terrain and menu logo; Razi owns those rendering systems. Other legacy sprites remain pending full prototype audits.",
-  "version": "1.3",
+  "version": "1.4",
   "project_badges": [
     {
       "machine": "fw-industrial-harvester",
@@ -136,5 +141,37 @@
     "graphics/terrain/shattered/fw-shattered-purple-land.png",
     "graphics/terrain/shattered/fw-shattered-yellow-land.png",
     "graphics/terrain/shattered/fw-shattered-green-land.png"
+  ],
+  "spectrum_industrials": [
+    {
+      "id": "chemical-membrane",
+      "icon": "graphics/icons/industrial/fw-chemical-membrane.png",
+      "source": "art/source/fw-chemical-membrane.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "thermal-core",
+      "icon": "graphics/icons/industrial/fw-thermal-core.png",
+      "source": "art/source/fw-thermal-core.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "phase-wafer",
+      "icon": "graphics/icons/industrial/fw-phase-wafer.png",
+      "source": "art/source/fw-phase-wafer.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "living-fiber",
+      "icon": "graphics/icons/industrial/fw-living-fiber.png",
+      "source": "art/source/fw-living-fiber.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "convergence-chassis",
+      "icon": "graphics/icons/industrial/fw-convergence-chassis.png",
+      "source": "art/source/fw-convergence-chassis.svg",
+      "icon_size": 128
+    }
   ]
 }
