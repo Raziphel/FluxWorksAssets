@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "FluxWorks Industrial Extension",
   "revision": "2026-10-16",
-  "requires": "FluxWorks 0.4.0",
+  "requires": "FluxWorks >= 0.5.0",
   "asset_mod_id": "FluxWorksAssets",
   "runtime_owned_by": "razi-protocol",
   "graphics_namespace": "__FluxWorksAssets__",
@@ -55,10 +55,14 @@
     "graphics/icons/industrial/fw-thermal-core.png",
     "graphics/icons/industrial/fw-phase-wafer.png",
     "graphics/icons/industrial/fw-living-fiber.png",
-    "graphics/icons/industrial/fw-convergence-chassis.png"
+    "graphics/icons/industrial/fw-convergence-chassis.png",
+    "graphics/icons/industrial-programs/fw-program-chemical.png",
+    "graphics/icons/industrial-programs/fw-program-thermal.png",
+    "graphics/icons/industrial-programs/fw-program-biological.png",
+    "graphics/icons/industrial-programs/fw-program-phase.png"
   ],
   "notes": "Active machine and manufacturing icon paths preserved. Removed old standalone landable-Shattered terrain and menu logo; Razi owns those rendering systems. Other legacy sprites remain pending full prototype audits.",
-  "version": "1.4",
+  "version": "1.5",
   "project_badges": [
     {
       "machine": "fw-industrial-harvester",
@@ -171,6 +175,32 @@
       "id": "convergence-chassis",
       "icon": "graphics/icons/industrial/fw-convergence-chassis.png",
       "source": "art/source/fw-convergence-chassis.svg",
+      "icon_size": 128
+    }
+  ],
+  "independent_programs": [
+    {
+      "id": "chemical",
+      "icon": "graphics/icons/industrial-programs/fw-program-chemical.png",
+      "source": "art/source/fw-program-chemical.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "thermal",
+      "icon": "graphics/icons/industrial-programs/fw-program-thermal.png",
+      "source": "art/source/fw-program-thermal.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "biological",
+      "icon": "graphics/icons/industrial-programs/fw-program-biological.png",
+      "source": "art/source/fw-program-biological.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "phase",
+      "icon": "graphics/icons/industrial-programs/fw-program-phase.png",
+      "source": "art/source/fw-program-phase.svg",
       "icon_size": 128
     }
   ]

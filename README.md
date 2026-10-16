@@ -1,6 +1,6 @@
 # FluxWorks Assets
 
-Asset library for **FluxWorks 0.3.5**, the industrial engineering extension to Razi Protocol.
+Art library for **standalone FluxWorks 0.5+**, the industrial engineering extension to Razi Protocol.
 
 This package ships sprites and graphical resources used by the four Flux spectra, extractor and fabrication machines, Flux recovery icons, and compatibility-sensitive legacy manufacturing content. It contains **no gameplay rules, technologies, quests, or campaign logic**. Install it as a dependency of FluxWorks; FluxWorks requires Razi Protocol for gameplay.
 
@@ -46,3 +46,8 @@ Removed one obsolete FluxWorks custom-menu logo and four terrain textures used e
 
 ## New spectrum production art (1.0.8)
 Five new authored 128px industrial item icons and editable SVG design references: Yellow Separation Membrane, Red Thermal Core, Purple Phase Wafer, Green Living Fiber and four-spectrum Convergence Chassis. These are new manufactured items, not replacements of original machine animation sprite sheets.
+
+
+## Independent industrial technology art · 1.0.9
+
+Four new 128-pixel program emblems (precision chemistry, chromatic metallurgy, living manufacture and phase electronics) now depict FluxWorks' own standalone research, regardless of whether Razi Protocol is installed. Existing system emblems and upgrade art remain optional enhancements. Source SVG masters accompany each rendered PNG.
