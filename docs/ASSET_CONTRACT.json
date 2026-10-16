@@ -38,9 +38,13 @@
     "graphics/icons/fluids/flux-red.png",
     "graphics/icons/fluids/flux-green.png",
     "graphics/icons/items/crystallized-flux.png",
-    "graphics/technology/native/fw-flux-extraction.png"
+    "graphics/technology/native/fw-flux-extraction.png",
+    "graphics/icons/upgrade-badges/fw-industrial-harvester.png",
+    "graphics/icons/upgrade-badges/fw-precision-synthesis.png",
+    "graphics/icons/upgrade-badges/fw-chromatic-foundry.png",
+    "graphics/icons/upgrade-badges/fw-convergence.png"
   ],
-  "notes": "Four distinct actual PNG upgrade emblems are bundled, with editable SVG masters. Existing sprite paths remain untouched. Full machine sprite animations remain sourced from the existing graphics dependencies.",
+  "notes": "Project badges are real 128 px RGBA PNGs generated from editable SVG drawings. Four legacy Flux overlays remain untouched.",
   "version": "1.1",
   "project_badges": [
     {
