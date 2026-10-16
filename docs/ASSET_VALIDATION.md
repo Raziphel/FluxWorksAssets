@@ -1,6 +1,6 @@
 # FluxWorks Assets development checks
 
-This branch introduces no new PNG binaries. Existing four spectrum emblems, crystalline Flux item and Extraction technology icons have been independently verified present in the Assets repository.
+This branch includes **four newly authored machine-upgrade PNG badges**, plus all original Flux icons and graphics. The offline validator checks the existing six named assets and four upgrade badges, and verifies editable SVG masters.
 
 ```sh
 python3 scripts/validate_extension_assets.py

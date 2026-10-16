@@ -44,7 +44,7 @@
     "graphics/icons/upgrade-badges/fw-chromatic-foundry.png",
     "graphics/icons/upgrade-badges/fw-convergence.png"
   ],
-  "notes": "Project badges are real 128 px RGBA PNGs generated from editable SVG drawings. Four legacy Flux overlays remain untouched.",
+  "notes": "Version 1.0.5 includes four independent 128px industrial upgrade PNG emblems and their editable SVG drawings. Existing machine sprite atlases remain supplied by established source graphics.",
   "version": "1.1",
   "project_badges": [
     {
@@ -54,19 +54,19 @@
       "icon_size": 128
     },
     {
-      "machine": "fw-precision-synthesis",
+      "machine": "fw-precision-synthesis-plant",
       "icon": "graphics/icons/upgrade-badges/fw-precision-synthesis.png",
       "source": "art/source/fw-precision-synthesis.svg",
       "icon_size": 128
     },
     {
-      "machine": "fw-chromatic-foundry",
+      "machine": "fw-chromatic-arc-foundry",
       "icon": "graphics/icons/upgrade-badges/fw-chromatic-foundry.png",
       "source": "art/source/fw-chromatic-foundry.svg",
       "icon_size": 128
     },
     {
-      "machine": "fw-convergence",
+      "machine": "fw-convergence-synthesis-plant",
       "icon": "graphics/icons/upgrade-badges/fw-convergence.png",
       "source": "art/source/fw-convergence.svg",
       "icon_size": 128

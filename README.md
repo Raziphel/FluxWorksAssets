@@ -29,7 +29,7 @@ python3 scripts/validate_extension_assets.py
 
 This tool checks known extension icon paths and valid PNG dimensions without third-party dependencies. It does not replace in-game Factorio sprite/prototype loading, atlas packing, tint rendering, animations, collision footprints or a visual QA review. No automatic GitHub Action is enabled.
 
-**0.3 development:** The current branch preserves original binary assets while recording the direction and validating existing Flux overlays. A complete new sprite pack remains a separate art deliverable; no new binary artwork is claimed.
+**0.3 development:** This branch retains existing full machine sprite animations and adds four new 128px PNG machine-upgrade badges with editable vector masters. A complete machine sprite-sheet replacement remains a separate art deliverable.
 
 ## New Industrial Project emblems (1.0.5)
 

@@ -24,6 +24,23 @@ def main() -> int:
     }
     assert len(expected) == len(set(expected))
     assert {entry["overlay"] for entry in spectra}.issubset(set(expected))
+    projects = manifest.get("project_badges", [])
+    expected_machines = {
+        "fw-industrial-harvester",
+        "fw-precision-synthesis-plant",
+        "fw-chromatic-arc-foundry",
+        "fw-convergence-synthesis-plant",
+    }
+    assert len(projects) == 4
+    assert {entry["machine"] for entry in projects} == expected_machines
+    assert {entry["icon"] for entry in projects}.issubset(set(expected))
+    for entry in projects:
+        path = (ROOT / entry["source"]).resolve()
+        if not path.is_relative_to(ROOT) or not path.is_file():
+            raise FileNotFoundError(f"Missing editable SVG master: {entry['source']}")
+        source = path.read_text(encoding="utf-8")
+        if '<svg ' not in source or '</svg>' not in source:
+            raise ValueError(f"Malformed SVG art source: {entry['source']}")
     for relpath in expected:
         path = (ROOT / relpath).resolve()
         if not path.is_relative_to(ROOT) or path.suffix.lower() != ".png":

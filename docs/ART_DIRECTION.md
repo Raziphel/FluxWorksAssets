@@ -48,3 +48,7 @@ The four Industrial Project machines already retain original collision dimension
 4. Confirm no missing asset references and no alpha halos.
 5. Update asset contract with every new path before enabling it in FluxWorks; bump Assets version if new binaries are required.
 6. Keep binary changes separate from gameplay logic, with source and compression details in any artwork PR.
+
+## Art delivered in Assets 1.0.5
+
+The four project upgrade emblems are not palette-swapped circles: the Harvester uses an extraction drill, the Precision Synthesis Plant uses a triad reaction diagram, the Chromatic Foundry uses a crucible, and the Convergence Plant combines four spectra into one controlled core. Four 128px RGBA game-ready PNGs and matching editable SVG masters are stored in `graphics/icons/upgrade-badges/` and `art/source/`. These are designed as small layered icons and deliberately do **not** replace the original machines' footprint, pipes, idle and working sprite sheets, or lights.
