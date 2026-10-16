@@ -66,6 +66,22 @@ def main() -> int:
         svg = source.read_text(encoding="utf-8")
         if "<svg " not in svg or "</svg>" not in svg:
             raise ValueError(f"Malformed system vector master: {badge['source']}")
+    industrials = manifest.get("spectrum_industrials", [])
+    expected_industrials = {
+        "chemical-membrane", "thermal-core", "phase-wafer",
+        "living-fiber", "convergence-chassis",
+    }
+    assert len(industrials) == 5, "Expected five new Reborn industrial items"
+    assert {entry["id"] for entry in industrials} == expected_industrials
+    assert {entry["icon"] for entry in industrials}.issubset(set(expected))
+    for entry in industrials:
+        assert entry["icon_size"] == 128
+        source = (ROOT / entry["source"]).resolve()
+        if not source.is_relative_to(ROOT) or not source.is_file():
+            raise FileNotFoundError(f"Missing spectrum industrial SVG master: {entry['source']}")
+        art = source.read_text(encoding="utf-8")
+        if "<svg " not in art or "</svg>" not in art:
+            raise ValueError(f"Malformed spectrum source SVG: {entry['source']}")
     for relpath in expected:
         path = (ROOT / relpath).resolve()
         if not path.is_relative_to(ROOT) or path.suffix.lower() != ".png":

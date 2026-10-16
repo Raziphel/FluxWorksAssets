@@ -21,3 +21,7 @@ Eight new 128×128 RGBA PNG emblems and corresponding editable SVGs cover all se
 ## Retired artwork (Assets 1.0.7)
 
 The contract rejects five old standalone-only files that cannot be used by FluxWorks' current Razi-hosted loader. Do not delete other legacy sprites simply because their names look old: verify all active Lua prototype references and an existing-save Factorio test first.
+
+## Spectrum manufacturing sprites in Assets 1.0.8
+
+This repository now contracts **23 known active PNG assets**, including five newly authored 128x128 item graphics for Reborn's chemistry, heat, phase, biology, and convergence outputs. The offline validator verifies their paths, PNG signature, dimensions, SVG design references, and five distinct identities. PNG signature and dimensions do **not** verify sprite atlas behavior; a real Factorio 2.1 load remains necessary.

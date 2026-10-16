@@ -56,3 +56,7 @@ The four project upgrade emblems are not palette-swapped circles: the Harvester 
 ## Seven-system navigation icon set
 
 The Calidus hub uses a concentric mechanical ring; Solaris a glowing solar turbine; Nyxaris a green growth leaf; Vibrant a lightning bolt; Vespera a snowflake; Beetlejuice an engineered crystal cube; Umbra a crescent eclipse; and Deep Space a navigation star. All eight are actual 128px game-ready PNG emblems with editable source SVGs. They are rendered as small corner marks alongside each native factory product, never used as full-size substitute icons for an item. Existing four-spectrum overlays remain the primary manufacturing cue.
+
+## 0.4 Reborn intermediate families
+
+Five independent industrial material silhouettes represent concrete industrial tasks, not interchangeable Flux circles: the chemical separation membrane, refractory thermal core, phase-alignment wafer, living biotech fiber and four-part convergence chassis. Their item prototypes are registered by FluxWorks, and the graphics remain here. Existing full-world machine sprite sheets are still used. They must be replaced intentionally as a separate animation/sprite-sheet art project rather than claimed as complete now.
