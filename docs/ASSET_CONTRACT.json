@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "FluxWorks Industrial Extension",
   "revision": "2026-10-16",
-  "requires": "FluxWorks 0.3.0",
+  "requires": "FluxWorks 0.3.5",
   "asset_mod_id": "FluxWorksAssets",
   "runtime_owned_by": "razi-protocol",
   "graphics_namespace": "__FluxWorksAssets__",
@@ -52,8 +52,8 @@
     "graphics/icons/system-badges/fw-umbra-industry.png",
     "graphics/icons/system-badges/fw-deep-space-industry.png"
   ],
-  "notes": "Includes eight unique star-system industrial emblems and four Project machine upgrade emblems. Native machine animations remain separate.",
-  "version": "1.2",
+  "notes": "Active machine and manufacturing icon paths preserved. Removed old standalone landable-Shattered terrain and menu logo; Razi owns those rendering systems. Other legacy sprites remain pending full prototype audits.",
+  "version": "1.3",
   "project_badges": [
     {
       "machine": "fw-industrial-harvester",
@@ -129,5 +129,12 @@
       "icon_size": 128,
       "source": "art/source/fw-deep-space-industry.svg"
     }
+  ],
+  "retired_files": [
+    "graphics/menu-simulations/fw-logo.png",
+    "graphics/terrain/shattered/fw-shattered-red-land.png",
+    "graphics/terrain/shattered/fw-shattered-purple-land.png",
+    "graphics/terrain/shattered/fw-shattered-yellow-land.png",
+    "graphics/terrain/shattered/fw-shattered-green-land.png"
   ]
 }

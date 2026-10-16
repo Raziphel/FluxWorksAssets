@@ -1,8 +1,8 @@
 # FluxWorks Assets
 
-Asset library for **FluxWorks 0.3**, the industrial engineering extension to Razi Protocol.
+Asset library for **FluxWorks 0.3.5**, the industrial engineering extension to Razi Protocol.
 
-This package ships sprites and graphical resources used by the four Flux spectra, extractor and fabrication machines, Flux recovery icons, and existing legacy content. It contains **no gameplay rules, technologies, quests, or campaign logic**. Install it as a dependency of FluxWorks; FluxWorks requires Razi Protocol for gameplay.
+This package ships sprites and graphical resources used by the four Flux spectra, extractor and fabrication machines, Flux recovery icons, and compatibility-sensitive legacy manufacturing content. It contains **no gameplay rules, technologies, quests, or campaign logic**. Install it as a dependency of FluxWorks; FluxWorks requires Razi Protocol for gameplay.
 
 ## Art direction
 
@@ -39,3 +39,7 @@ Four new PNG icons are now bundled at `graphics/icons/upgrade-badges/`: a gold d
 ## Eight system emblems · 1.0.6
 
 Added a separate 128px PNG (plus editable SVG master) for each of Calidus, Solaris, Nyxaris, Vibrant, Vespera, Beetlejuice, Umbra, and Deep Space. FluxWorks uses these as small overlays on its optional planet/K2SO/freight technologies and recipes, while keeping the product's native icon and the recognizable Flux emblem. All existing asset paths and machine animation frames remain unchanged.
+
+## 1.0.7 lean graphics package
+
+Removed one obsolete FluxWorks custom-menu logo and four terrain textures used exclusively by its deleted landable Shattered Planet code. Razi owns planetary terrain and menu scenes. Other machine sprite atlases, used rocket recovery graphics, 18 contracted active icons, and legacy manufacturing textures remain until safe save-prototype migration is proven. The validator now rejects the five retired paths as well as verifying retained core assets.

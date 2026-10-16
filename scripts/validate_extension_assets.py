@@ -22,6 +22,15 @@ def main() -> int:
     assert {entry["id"] for entry in spectra} == {
         "purple", "yellow", "red", "green"
     }
+    retired = manifest.get("retired_files", [])
+    assert len(retired) == len(set(retired))
+    assert not (set(retired) & set(expected))
+    for relpath in retired:
+        path = (ROOT / relpath).resolve()
+        if not path.is_relative_to(ROOT):
+            raise ValueError(f"Unsafe retired file path: {relpath}")
+        if path.exists():
+            raise ValueError(f"Legacy standalone art reintroduced: {relpath}")
     assert len(expected) == len(set(expected))
     assert {entry["overlay"] for entry in spectra}.issubset(set(expected))
     projects = manifest.get("project_badges", [])
@@ -73,7 +82,7 @@ def main() -> int:
         if not (1 <= width <= 8192 and 1 <= height <= 8192):
             raise ValueError(f"Invalid sprite dimensions {width}x{height}: {relpath}")
         print(f"OK {width:4}x{height:<4} {relpath}")
-    print(f"Validated {len(expected)} existing extension assets")
+    print(f"Validated {len(expected)} active paths and {len(retired)} removed paths")
     return 0
 
 

@@ -31,7 +31,7 @@ The four Industrial Project machines already retain original collision dimension
 - Inventory icons: easily differentiated at 32 and 64 px, consistent material light direction, no tiny text, no large glow. Keep clear margins.
 - Spectrum overlay emblems: retain exact published paths below so all 22 industry recipes and the existing project machine upgrades resolve. Keep their orientation, alpha and distinctive visual marks.
 - Four-spectrum crossovers: maximum **two small spectrum emblems** around the bottom edge, never cover the output icon's primary shape.
-- Legacy standalone Shattered Planet textures stay in the package for compatibility but must not appear as new Razi destinations or Razi's galactic art.
+- Legacy landable Shattered Planet terrain and the custom menu logo are retired; other save-referenced industrial textures remain until tested.
 
 ## Performance and consistency
 

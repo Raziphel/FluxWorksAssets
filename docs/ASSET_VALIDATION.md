@@ -17,3 +17,7 @@ Do not enable push-triggered CI: tests run on demand to minimize GitHub Actions 
 ## Galactic badges 1.0.6
 
 Eight new 128×128 RGBA PNG emblems and corresponding editable SVGs cover all seven Razi systems and Deep Space. The offline checker verifies every PNG header/IHDR, unique recorded path, full source master and system ID. FluxWorks 0.3.2+ references the icons as optional small layered recipe and technology markers. Full Factorio 2.1 icon scale, atlas and contrast testing remains a release gate.
+
+## Retired artwork (Assets 1.0.7)
+
+The contract rejects five old standalone-only files that cannot be used by FluxWorks' current Razi-hosted loader. Do not delete other legacy sprites simply because their names look old: verify all active Lua prototype references and an existing-save Factorio test first.

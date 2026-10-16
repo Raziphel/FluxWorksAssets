@@ -1,10 +1,10 @@
 {
   "name": "FluxWorksAssets",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "title": "FluxWorks Assets",
   "author": "Raziphel, Tirisabella",
   "factorio_version": "2.1",
-  "description": "FluxWorks graphics: four Flux spectra, project machines, eight galaxy workshop emblems and legacy manufacturing assets.",
+  "description": "FluxWorks industrial sprites, spectra, galaxy badges and legacy manufacturing art; standalone campaign-only art removed.",
   "dependencies": [
     "base >= 2.1.0",
     "space-age >= 2.1.0"
