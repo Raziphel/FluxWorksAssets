@@ -55,3 +55,7 @@ Four new 128-pixel program emblems (precision chemistry, chromatic metallurgy, l
 ## Two complementary identities · 1.1.0
 
 The Four Works charter is FluxWorks' own core manufacturing union; the Seven Foundries Atlas marks the optional Razi interstellar manufacturing ledger. Each has a distinct dedicated 128px icon and editable SVG source under `art/source`. The seven system badges remain separate and retain their save-stable graphics paths.
+
+## Focused Industry art policy (FluxWorks 0.7)
+
+The main mod's new Focused profile retires the ore and extra-intermediate gameplay, **not its save-visible prototype IDs**. Their historical sprites remain packed solely to keep current save files loadable. See [Focused Asset Policy](docs/FOCUSED_ASSETS.md). No new sprite art is required for the lean release.
