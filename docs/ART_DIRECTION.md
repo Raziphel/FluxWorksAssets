@@ -60,3 +60,7 @@ The Calidus hub uses a concentric mechanical ring; Solaris a glowing solar turbi
 ## 0.4 Reborn intermediate families
 
 Five independent industrial material silhouettes represent concrete industrial tasks, not interchangeable Flux circles: the chemical separation membrane, refractory thermal core, phase-alignment wafer, living biotech fiber and four-part convergence chassis. Their item prototypes are registered by FluxWorks, and the graphics remain here. Existing full-world machine sprite sheets are still used. They must be replaced intentionally as a separate animation/sprite-sheet art project rather than claimed as complete now.
+
+## Industrial identity and the Atlas
+
+The Four Works emblem is a single central fabrication joint connected to four engineering disciplines, distinct from any Razi planet icon. The Atlas is seven calibrated field nodes oriented toward one shared industrial axis. The first must read well without Razi installed; the second exists only for Razi-integrated field research. Neither should replace existing machine or planet artwork. SVG sources remain editable while PNGs are the runtime artifacts.

@@ -99,6 +99,19 @@ def main() -> int:
             raise ValueError(
                 f"Malformed independent-program vector master: {entry['source']}"
             )
+    identity_marks = manifest.get("identity_marks", [])
+    assert {mark["id"] for mark in identity_marks} == {
+        "four-works-charter", "seven-foundries-atlas"
+    }, "FluxWorks independent/Razi identity art is incomplete"
+    for mark in identity_marks:
+        assert mark["icon_size"] == 128
+        assert mark["icon"] in expected
+        master = (ROOT / mark["source"]).resolve()
+        if not master.is_relative_to(ROOT) or not master.is_file():
+            raise FileNotFoundError(f"Missing identity SVG master: {mark['source']}")
+        artwork = master.read_text(encoding="utf-8")
+        if "<svg " not in artwork or "</svg>" not in artwork:
+            raise ValueError(f"Invalid FluxWorks identity SVG: {mark['source']}")
     for relpath in expected:
         path = (ROOT / relpath).resolve()
         if not path.is_relative_to(ROOT) or path.suffix.lower() != ".png":

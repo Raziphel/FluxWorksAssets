@@ -51,3 +51,7 @@ Five new authored 128px industrial item icons and editable SVG design references
 ## Independent industrial technology art · 1.0.9
 
 Four new 128-pixel program emblems (precision chemistry, chromatic metallurgy, living manufacture and phase electronics) now depict FluxWorks' own standalone research, regardless of whether Razi Protocol is installed. Existing system emblems and upgrade art remain optional enhancements. Source SVG masters accompany each rendered PNG.
+
+## Two complementary identities · 1.1.0
+
+The Four Works charter is FluxWorks' own core manufacturing union; the Seven Foundries Atlas marks the optional Razi interstellar manufacturing ledger. Each has a distinct dedicated 128px icon and editable SVG source under `art/source`. The seven system badges remain separate and retain their save-stable graphics paths.
