@@ -2,7 +2,7 @@
   "schema": 1,
   "project": "FluxWorks Industrial Extension",
   "revision": "2026-10-16",
-  "requires": "FluxWorks >= 0.5.0",
+  "requires": "FluxWorks >= 0.6.0",
   "asset_mod_id": "FluxWorksAssets",
   "runtime_owned_by": "razi-protocol",
   "graphics_namespace": "__FluxWorksAssets__",
@@ -59,10 +59,12 @@
     "graphics/icons/industrial-programs/fw-program-chemical.png",
     "graphics/icons/industrial-programs/fw-program-thermal.png",
     "graphics/icons/industrial-programs/fw-program-biological.png",
-    "graphics/icons/industrial-programs/fw-program-phase.png"
+    "graphics/icons/industrial-programs/fw-program-phase.png",
+    "graphics/icons/identity/fw-four-works-charter.png",
+    "graphics/icons/identity/fw-seven-foundries-atlas.png"
   ],
   "notes": "Active machine and manufacturing icon paths preserved. Removed old standalone landable-Shattered terrain and menu logo; Razi owns those rendering systems. Other legacy sprites remain pending full prototype audits.",
-  "version": "1.5",
+  "version": "1.6",
   "project_badges": [
     {
       "machine": "fw-industrial-harvester",
@@ -201,6 +203,20 @@
       "id": "phase",
       "icon": "graphics/icons/industrial-programs/fw-program-phase.png",
       "source": "art/source/fw-program-phase.svg",
+      "icon_size": 128
+    }
+  ],
+  "identity_marks": [
+    {
+      "id": "four-works-charter",
+      "icon": "graphics/icons/identity/fw-four-works-charter.png",
+      "source": "art/source/fw-four-works-charter.svg",
+      "icon_size": 128
+    },
+    {
+      "id": "seven-foundries-atlas",
+      "icon": "graphics/icons/identity/fw-seven-foundries-atlas.png",
+      "source": "art/source/fw-seven-foundries-atlas.svg",
       "icon_size": 128
     }
   ]

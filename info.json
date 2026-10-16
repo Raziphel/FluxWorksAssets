@@ -1,10 +1,10 @@
 {
   "name": "FluxWorksAssets",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "title": "FluxWorks Assets",
   "author": "Raziphel, Tirisabella",
   "factorio_version": "2.1",
-  "description": "Industrial art library for standalone FluxWorks: spectrum resources, specialist factories, four research programs and optional galactic equipment.",
+  "description": "Industrial identity art for standalone Four Works manufacturing and optional Seven Foundries Atlas, with factory and planetary assets.",
   "dependencies": [
     "base >= 2.1.0",
     "space-age >= 2.1.0"
