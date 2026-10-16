@@ -1,12 +1,11 @@
 {
   "name": "FluxWorksAssets",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "title": "FluxWorks Assets",
   "author": "Raziphel, Tirisabella",
   "factorio_version": "2.1",
-  "description": "Industrial identity art for standalone Four Works manufacturing and optional Seven Foundries Atlas, with factory and planetary assets.",
+  "description": "Empty asset companion, preserved as a fresh foundation for future FluxWorks artwork.",
   "dependencies": [
-    "base >= 2.1.0",
-    "space-age >= 2.1.0"
+    "base >= 2.1.0"
   ]
 }

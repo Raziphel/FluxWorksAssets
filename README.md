@@ -1,61 +1,9 @@
 # FluxWorks Assets
 
-Art library for **standalone FluxWorks 0.5+**, the industrial engineering extension to Razi Protocol.
+**Clean slate · 0.1.0**
 
-This package ships sprites and graphical resources used by the four Flux spectra, extractor and fabrication machines, Flux recovery icons, and compatibility-sensitive legacy manufacturing content. It contains **no gameplay rules, technologies, quests, or campaign logic**. Install it as a dependency of FluxWorks; FluxWorks requires Razi Protocol for gameplay.
+The previous sprites, icons, animations, planetary badges, and design documents have been removed from `main`. This repository currently provides **zero artwork or gameplay assets** and is **not required** by the new FluxWorks mod.
 
-## Art direction
+New art should only be added after the new gameplay direction is chosen and a real prototype needs it. We will not carry hundreds of unused historical sprites into the reboot.
 
-The four Flux disciplines must be recognizable at inventory-icon size as well as in large industrial machines:
-
-- **Matter (purple):** prismatic edges, stable geometric lattices and controlled phase distortion.
-- **Chemical (yellow):** precise glasswork, chromatography lines, catalysts and amber illumination.
-- **Fuel (red):** heat ceramics, slag, turbine housings and molten orange-red channels.
-- **Biological (green):** fibrous membranes, tissue-like channels, condensation and deep chlorophyll tones.
-
-Prefer silhouettes, material finishes and symbol language rather than recoloring an identical sprite four times. Preserve existing asset paths: item and technology prototypes in established saves refer to them.
-
-The extension's eight new foundry processes deliberately use **existing product icons with native Flux overlays**. Their new names and crafting ratios belong to the FluxWorks repository, not this assets-only package.
-
-See [Art direction](docs/ART_DIRECTION.md), [Asset contract](docs/ASSET_CONTRACT.json), and [Validation](docs/ASSET_VALIDATION.md).
-
-## Maintainer workflow
-
-Run the offline reference checker:
-
-```bash
-python3 scripts/validate_extension_assets.py
-```
-
-This tool checks known extension icon paths and valid PNG dimensions without third-party dependencies. It does not replace in-game Factorio sprite/prototype loading, atlas packing, tint rendering, animations, collision footprints or a visual QA review. No automatic GitHub Action is enabled.
-
-**0.3 development:** This branch retains existing full machine sprite animations and adds four new 128px PNG machine-upgrade badges with editable vector masters. A complete machine sprite-sheet replacement remains a separate art deliverable.
-
-## New Industrial Project emblems (1.0.5)
-
-Four new PNG icons are now bundled at `graphics/icons/upgrade-badges/`: a gold drilling head (Industrial Harvester), violet triangular reaction graph (Precision Synthesis), red crucible (Chromatic Foundry), and four-color central convergence (Convergence Plant). Editable SVG sources live in `art/source/`. These are real new inventory-icon assets, not full replacement sprite-sheet animations. The existing large machine renderings and tile footprints are preserved.
-
-
-## Eight system emblems · 1.0.6
-
-Added a separate 128px PNG (plus editable SVG master) for each of Calidus, Solaris, Nyxaris, Vibrant, Vespera, Beetlejuice, Umbra, and Deep Space. FluxWorks uses these as small overlays on its optional planet/K2SO/freight technologies and recipes, while keeping the product's native icon and the recognizable Flux emblem. All existing asset paths and machine animation frames remain unchanged.
-
-## 1.0.7 lean graphics package
-
-Removed one obsolete FluxWorks custom-menu logo and four terrain textures used exclusively by its deleted landable Shattered Planet code. Razi owns planetary terrain and menu scenes. Other machine sprite atlases, used rocket recovery graphics, 18 contracted active icons, and legacy manufacturing textures remain until safe save-prototype migration is proven. The validator now rejects the five retired paths as well as verifying retained core assets.
-
-## New spectrum production art (1.0.8)
-Five new authored 128px industrial item icons and editable SVG design references: Yellow Separation Membrane, Red Thermal Core, Purple Phase Wafer, Green Living Fiber and four-spectrum Convergence Chassis. These are new manufactured items, not replacements of original machine animation sprite sheets.
-
-
-## Independent industrial technology art · 1.0.9
-
-Four new 128-pixel program emblems (precision chemistry, chromatic metallurgy, living manufacture and phase electronics) now depict FluxWorks' own standalone research, regardless of whether Razi Protocol is installed. Existing system emblems and upgrade art remain optional enhancements. Source SVG masters accompany each rendered PNG.
-
-## Two complementary identities · 1.1.0
-
-The Four Works charter is FluxWorks' own core manufacturing union; the Seven Foundries Atlas marks the optional Razi interstellar manufacturing ledger. Each has a distinct dedicated 128px icon and editable SVG source under `art/source`. The seven system badges remain separate and retain their save-stable graphics paths.
-
-## Focused Industry art policy (FluxWorks 0.7)
-
-The main mod's new Focused profile retires the ore and extra-intermediate gameplay, **not its save-visible prototype IDs**. Their historical sprites remain packed solely to keep current save files loadable. See [Focused Asset Policy](docs/FOCUSED_ASSETS.md). No new sprite art is required for the lean release.
+The complete historical assets remain recoverable at [`archive/pre-zero-restart-2026-10-16`](../../tree/archive/pre-zero-restart-2026-10-16). Any saved worlds depending on the previous artwork require the matching archived mod and asset versions.
