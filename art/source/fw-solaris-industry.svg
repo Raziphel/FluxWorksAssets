@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>solaris industrial system badge</title>
+  <circle cx="64" cy="64" r="61" fill="#090F15" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="58" fill="#303D4B" stroke="#718293" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="53" fill="#162333" stroke="#2E4357" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="48" fill="#14202E" stroke="#DD7358" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="25" fill="#BD553B" stroke="#FFC395" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="12" fill="#FEDCA7" stroke="#8D3C2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="97" y1="64" x2="109" y2="64" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="87.33452377915607" y1="87.33452377915606" x2="95.81980515339464" y2="95.81980515339464" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="64" y1="97" x2="64" y2="109" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="40.665476220843935" y1="87.33452377915607" x2="32.18019484660536" y2="95.81980515339464" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="31" y1="64" x2="19" y2="64" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="40.66547622084393" y1="40.665476220843935" x2="32.18019484660535" y2="32.18019484660536" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="63.99999999999999" y1="31" x2="63.99999999999999" y2="19" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="87.33452377915606" y1="40.66547622084393" x2="95.81980515339463" y2="32.18019484660535" fill="none" stroke="#E89864" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

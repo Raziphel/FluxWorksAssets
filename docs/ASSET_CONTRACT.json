@@ -42,10 +42,18 @@
     "graphics/icons/upgrade-badges/fw-industrial-harvester.png",
     "graphics/icons/upgrade-badges/fw-precision-synthesis.png",
     "graphics/icons/upgrade-badges/fw-chromatic-foundry.png",
-    "graphics/icons/upgrade-badges/fw-convergence.png"
+    "graphics/icons/upgrade-badges/fw-convergence.png",
+    "graphics/icons/system-badges/fw-calidus-industry.png",
+    "graphics/icons/system-badges/fw-solaris-industry.png",
+    "graphics/icons/system-badges/fw-nyxaris-industry.png",
+    "graphics/icons/system-badges/fw-vibrant-industry.png",
+    "graphics/icons/system-badges/fw-vespera-industry.png",
+    "graphics/icons/system-badges/fw-beetlejuice-industry.png",
+    "graphics/icons/system-badges/fw-umbra-industry.png",
+    "graphics/icons/system-badges/fw-deep-space-industry.png"
   ],
-  "notes": "Version 1.0.5 includes four independent 128px industrial upgrade PNG emblems and their editable SVG drawings. Existing machine sprite atlases remain supplied by established source graphics.",
-  "version": "1.1",
+  "notes": "Includes eight unique star-system industrial emblems and four Project machine upgrade emblems. Native machine animations remain separate.",
+  "version": "1.2",
   "project_badges": [
     {
       "machine": "fw-industrial-harvester",
@@ -70,6 +78,56 @@
       "icon": "graphics/icons/upgrade-badges/fw-convergence.png",
       "source": "art/source/fw-convergence.svg",
       "icon_size": 128
+    }
+  ],
+  "system_badges": [
+    {
+      "system": "calidus",
+      "icon": "graphics/icons/system-badges/fw-calidus-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-calidus-industry.svg"
+    },
+    {
+      "system": "solaris",
+      "icon": "graphics/icons/system-badges/fw-solaris-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-solaris-industry.svg"
+    },
+    {
+      "system": "nyxaris",
+      "icon": "graphics/icons/system-badges/fw-nyxaris-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-nyxaris-industry.svg"
+    },
+    {
+      "system": "vibrant",
+      "icon": "graphics/icons/system-badges/fw-vibrant-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-vibrant-industry.svg"
+    },
+    {
+      "system": "vespera",
+      "icon": "graphics/icons/system-badges/fw-vespera-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-vespera-industry.svg"
+    },
+    {
+      "system": "beetlejuice",
+      "icon": "graphics/icons/system-badges/fw-beetlejuice-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-beetlejuice-industry.svg"
+    },
+    {
+      "system": "umbra",
+      "icon": "graphics/icons/system-badges/fw-umbra-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-umbra-industry.svg"
+    },
+    {
+      "system": "deep-space",
+      "icon": "graphics/icons/system-badges/fw-deep-space-industry.png",
+      "icon_size": 128,
+      "source": "art/source/fw-deep-space-industry.svg"
     }
   ]
 }

@@ -34,3 +34,8 @@ This tool checks known extension icon paths and valid PNG dimensions without thi
 ## New Industrial Project emblems (1.0.5)
 
 Four new PNG icons are now bundled at `graphics/icons/upgrade-badges/`: a gold drilling head (Industrial Harvester), violet triangular reaction graph (Precision Synthesis), red crucible (Chromatic Foundry), and four-color central convergence (Convergence Plant). Editable SVG sources live in `art/source/`. These are real new inventory-icon assets, not full replacement sprite-sheet animations. The existing large machine renderings and tile footprints are preserved.
+
+
+## Eight system emblems · 1.0.6
+
+Added a separate 128px PNG (plus editable SVG master) for each of Calidus, Solaris, Nyxaris, Vibrant, Vespera, Beetlejuice, Umbra, and Deep Space. FluxWorks uses these as small overlays on its optional planet/K2SO/freight technologies and recipes, while keeping the product's native icon and the recognizable Flux emblem. All existing asset paths and machine animation frames remain unchanged.

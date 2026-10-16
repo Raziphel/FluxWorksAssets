@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>nyxaris industrial system badge</title>
+  <circle cx="64" cy="64" r="61" fill="#090F15" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="58" fill="#303D4B" stroke="#718293" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="53" fill="#162333" stroke="#2E4357" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="48" fill="#14202E" stroke="#75C19B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="44,85 45,62 62,37 90,32 82,62 65,83" fill="#357B5C" stroke="#C6E9D5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="50" y1="90" x2="80" y2="43" fill="none" stroke="#C7EAC5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="61" y1="72" x2="48" y2="60" fill="none" stroke="#93CFAE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="71" y1="57" x2="83" y2="58" fill="none" stroke="#93CFAE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

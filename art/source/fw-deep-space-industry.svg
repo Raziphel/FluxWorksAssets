@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>deep-space industrial system badge</title>
+  <circle cx="64" cy="64" r="61" fill="#090F15" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="58" fill="#303D4B" stroke="#718293" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="53" fill="#162333" stroke="#2E4357" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="48" fill="#14202E" stroke="#B6C8E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="64,21 73,53 107,64 73,73 64,107 55,73 21,64 55,53" fill="#93B4D3" stroke="#F4F7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="12" fill="#243C5B" stroke="#E5F5FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="36" cy="39" r="4" fill="#D6EBFF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="93" cy="91" r="3" fill="#E9F7FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
