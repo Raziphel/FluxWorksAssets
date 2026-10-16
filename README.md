@@ -1,0 +1,32 @@
+# FluxWorks Assets
+
+Asset library for **FluxWorks 0.3**, the industrial engineering extension to Razi Protocol.
+
+This package ships sprites and graphical resources used by the four Flux spectra, extractor and fabrication machines, Flux recovery icons, and existing legacy content. It contains **no gameplay rules, technologies, quests, or campaign logic**. Install it as a dependency of FluxWorks; FluxWorks requires Razi Protocol for gameplay.
+
+## Art direction
+
+The four Flux disciplines must be recognizable at inventory-icon size as well as in large industrial machines:
+
+- **Matter (purple):** prismatic edges, stable geometric lattices and controlled phase distortion.
+- **Chemical (yellow):** precise glasswork, chromatography lines, catalysts and amber illumination.
+- **Fuel (red):** heat ceramics, slag, turbine housings and molten orange-red channels.
+- **Biological (green):** fibrous membranes, tissue-like channels, condensation and deep chlorophyll tones.
+
+Prefer silhouettes, material finishes and symbol language rather than recoloring an identical sprite four times. Preserve existing asset paths: item and technology prototypes in established saves refer to them.
+
+The extension's eight new foundry processes deliberately use **existing product icons with native Flux overlays**. Their new names and crafting ratios belong to the FluxWorks repository, not this assets-only package.
+
+See [Art direction](docs/ART_DIRECTION.md), [Asset contract](docs/ASSET_CONTRACT.json), and [Validation](docs/ASSET_VALIDATION.md).
+
+## Maintainer workflow
+
+Run the offline reference checker:
+
+```bash
+python3 scripts/validate_extension_assets.py
+```
+
+This tool checks known extension icon paths and valid PNG dimensions without third-party dependencies. It does not replace in-game Factorio sprite/prototype loading, atlas packing, tint rendering, animations, collision footprints or a visual QA review. No automatic GitHub Action is enabled.
+
+**0.3 development:** The current branch preserves original binary assets while recording the direction and validating existing Flux overlays. A complete new sprite pack remains a separate art deliverable; no new binary artwork is claimed.

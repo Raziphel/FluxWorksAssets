@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "project": "FluxWorks Industrial Extension",
+  "revision": "2026-10-16",
+  "requires": "FluxWorks 0.3.0",
+  "asset_mod_id": "FluxWorksAssets",
+  "runtime_owned_by": "razi-protocol",
+  "graphics_namespace": "__FluxWorksAssets__",
+  "spectra": [
+    {
+      "id": "purple",
+      "discipline": "Matter",
+      "accent": "#A57AD8",
+      "overlay": "graphics/icons/fluids/flux-purple.png"
+    },
+    {
+      "id": "yellow",
+      "discipline": "Chemical",
+      "accent": "#D4B34A",
+      "overlay": "graphics/icons/fluids/flux-yellow.png"
+    },
+    {
+      "id": "red",
+      "discipline": "Fuel",
+      "accent": "#D66A58",
+      "overlay": "graphics/icons/fluids/flux-red.png"
+    },
+    {
+      "id": "green",
+      "discipline": "Biological",
+      "accent": "#68B78A",
+      "overlay": "graphics/icons/fluids/flux-green.png"
+    }
+  ],
+  "required_existing_paths": [
+    "graphics/icons/fluids/flux-purple.png",
+    "graphics/icons/fluids/flux-yellow.png",
+    "graphics/icons/fluids/flux-red.png",
+    "graphics/icons/fluids/flux-green.png",
+    "graphics/icons/items/crystallized-flux.png",
+    "graphics/technology/native/fw-flux-extraction.png"
+  ],
+  "notes": "Do not move or rename. Future new art additions require validated source prototype references; no binary sprite replacements are included in this blueprint commit."
+}
