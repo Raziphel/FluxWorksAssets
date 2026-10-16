@@ -41,6 +41,22 @@ def main() -> int:
         source = path.read_text(encoding="utf-8")
         if '<svg ' not in source or '</svg>' not in source:
             raise ValueError(f"Malformed SVG art source: {entry['source']}")
+    systems = manifest.get("system_badges", [])
+    expected_systems = {
+        "calidus", "solaris", "nyxaris", "vibrant",
+        "vespera", "beetlejuice", "umbra", "deep-space"
+    }
+    assert len(systems) == 8, "Expected eight separate system emblems"
+    assert {badge["system"] for badge in systems} == expected_systems
+    for badge in systems:
+        assert badge["icon"] in expected
+        assert badge["icon_size"] == 128
+        source = (ROOT / badge["source"]).resolve()
+        if not source.is_relative_to(ROOT) or not source.is_file():
+            raise FileNotFoundError(f"Missing system vector master: {badge['source']}")
+        svg = source.read_text(encoding="utf-8")
+        if "<svg " not in svg or "</svg>" not in svg:
+            raise ValueError(f"Malformed system vector master: {badge['source']}")
     for relpath in expected:
         path = (ROOT / relpath).resolve()
         if not path.is_relative_to(ROOT) or path.suffix.lower() != ".png":

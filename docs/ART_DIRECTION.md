@@ -52,3 +52,7 @@ The four Industrial Project machines already retain original collision dimension
 ## Art delivered in Assets 1.0.5
 
 The four project upgrade emblems are not palette-swapped circles: the Harvester uses an extraction drill, the Precision Synthesis Plant uses a triad reaction diagram, the Chromatic Foundry uses a crucible, and the Convergence Plant combines four spectra into one controlled core. Four 128px RGBA game-ready PNGs and matching editable SVG masters are stored in `graphics/icons/upgrade-badges/` and `art/source/`. These are designed as small layered icons and deliberately do **not** replace the original machines' footprint, pipes, idle and working sprite sheets, or lights.
+
+## Seven-system navigation icon set
+
+The Calidus hub uses a concentric mechanical ring; Solaris a glowing solar turbine; Nyxaris a green growth leaf; Vibrant a lightning bolt; Vespera a snowflake; Beetlejuice an engineered crystal cube; Umbra a crescent eclipse; and Deep Space a navigation star. All eight are actual 128px game-ready PNG emblems with editable source SVGs. They are rendered as small corner marks alongside each native factory product, never used as full-size substitute icons for an item. Existing four-spectrum overlays remain the primary manufacturing cue.
